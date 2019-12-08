@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+    <sampleCollector>Smith, Jane</sampleCollector>>
+    <projectName>Investigating the Origins of the North Blaine Granite</projectName>
+    <projectIdentifier>AD1029GH</projectIdentifier>
+    <principalInvestigator>Williams, Sheila</principalInvestigator>
+    <sampleIdentifier>APB000022</sampleIdentifier>
+    <classification>Igneous>Plutonic>Granite</classification>
+    <sampleDescription>Euhedral white plagioclase and black biotite, anhedral grayish quartz</sampleDescription>
+    <locationDescription>Outcrop on the south side of highway 129 at milepost 54</locationDescription>
+    <country>USA</country>
+    <stateProvince>WA</stateProvince>
+    <county>King</county>
+    <city>Kent</city>
+    <collectionDate>2012-10-28</collectionDate>
+    <collectionTime>13:42:00</collectionTime>
+    <latitude>35.928026</latitude>
+    <longitude>-84.041897</longitude>
+    <collectionMethod>Manual>Hammer</collectionMethod>
+    <geologicUnit>North Blaine Granite</geologicUnit>
+</record>

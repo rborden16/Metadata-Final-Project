@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="record">
+    <xs:complexType mixed="true">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="city" minOccurs="0"/>
+        <xs:element ref="classification"/>
+        <xs:element ref="collectionDate"/>
+        <xs:element ref="collectionMethod"/>
+        <xs:element ref="collectionTime"/>
+        <xs:element ref="country"/>
+        <xs:element ref="county" minOccurs="0"/>
+        <xs:element ref="geologicUnit" minOccurs="0"/>
+        <xs:element ref="latitude"/>
+        <xs:element ref="locationDescription"/>
+        <xs:element ref="longitude"/>
+        <xs:element ref="principalInvestigator" minOccurs="0"/>
+        <xs:element ref="projectIdentifier" minOccurs="0"/>
+        <xs:element ref="projectName" minOccurs="0"/>
+        <xs:element ref="sampleCollector"/>
+        <xs:element ref="sampleDescription"/>
+        <xs:element ref="sampleIdentifier"/>
+        <xs:element ref="stateProvince" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="city" type="xs:NCName"/>
+  <xs:element name="classification" type="xs:NCName"/>
+  <xs:element name="collectionDate" type="xs:date"/>
+  <xs:element name="collectionMethod" type="xs:NCName"/>
+  <xs:element name="collectionTime" type="xs:time"/>
+  <xs:element name="country" type="xs:NCName"/>
+  <xs:element name="county" type="xs:NCName"/>
+  <xs:element name="geologicUnit" type="xs:NCName"/>
+  <xs:element name="latitude" type="xs:decimal"/>
+  <xs:element name="locationDescription" type="xs:NCName"/>
+  <xs:element name="longitude" type="xs:decimal"/>
+  <xs:element name="principalInvestigator" type="xs:NCName"/>
+  <xs:element name="projectIdentifier" type="xs:NCName"/>
+  <xs:element name="projectName" type="xs:NCName"/>
+  <xs:element name="sampleCollector" type="xs:NCName"/>
+  <xs:element name="sampleDescription" type="xs:NCName"/>
+  <xs:element name="sampleIdentifier" type="xs:NCName"/>
+  <xs:element name="stateProvince" type="xs:NCName"/>
+</xs:schema>
